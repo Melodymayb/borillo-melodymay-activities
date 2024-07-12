@@ -1,11 +1,11 @@
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: linear-gradient(45deg,#ffc0cb, hsl(197, 76%, 50%), #eae7e9, 
-    hsl(0, 96%, 55%));
+    font-family: initial;
+    background-color: rgb(222, 81, 175);
     animation: color 12s ease-in-out infinite;
     padding: 0;
     height: fit-content;
+    color: white;
 
 }
 header {
@@ -57,12 +57,12 @@ header h1 {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #d2d43e;
     color: black;
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: rgb(4, 95, 170);
     color: white;
 }
 
